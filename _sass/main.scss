@@ -325,3 +325,27 @@ button.baguetteBox-button {
     transform: scale(.5);
   }
 }
+
+.social-home {
+	font-size: 1rem;
+	text-align: center;
+	.socialstring {
+		display: block;
+		margin-bottom: 1rem;
+	}
+	.hashtag {
+		font-weight: 600;
+	}
+	.small-prints {
+		font-size: 0;
+	  }
+	.icon {
+		color: #fff;
+		padding: 0.2em 0.4em;
+		font-size: initial;
+	}
+	@media screen and (max-width: $grid-breakpoints-md) {
+		text-align: left !important;
+		margin-top: 1em;
+	}
+}
